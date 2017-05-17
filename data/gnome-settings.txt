@@ -1,0 +1,172 @@
+[settings-daemon/plugins/power]
+sleep-inactive-battery-type='nothing'
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+sleep-inactive-battery-timeout=1800
+
+[settings-daemon/plugins/media-keys]
+terminal='<Alt>Return'
+screensaver=''
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='on'
+
+[settings-daemon/peripherals/touchscreen]
+orientation-lock=true
+
+[shell]
+app-picker-view=uint32 1
+enabled-extensions=['ShellTile@emasab.it', 'lockscreen@sri.ramkrishna.me', 'workspace-grid@mathematical.coffee.gmail.com']
+favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-clion.desktop', 'gnome-terminal.desktop']
+
+[shell/extensions/workspace-grid]
+num-columns=2
+
+[shell/overrides]
+dynamic-workspaces=false
+workspaces-only-on-primary=false
+edge-tiling=false
+
+[gedit/preferences/ui]
+show-tabs-mode='auto'
+
+[gedit/plugins/filebrowser]
+virtual-root='file:///home/avalenzu/Downloads'
+tree-view=true
+root='file:///'
+
+[gedit/plugins]
+active-plugins=['time', 'spell', 'docinfo', 'modelines', 'filebrowser']
+
+[gedit/state/window]
+size=(900, 700)
+state=128
+bottom-panel-size=140
+side-panel-size=200
+side-panel-active-page='GeditWindowDocumentsPanel'
+
+[nautilus/window-state]
+geometry='890x550+19+49'
+maximized=false
+
+[evolution-data-server]
+migrated=true
+
+[deja-dup]
+backend='file'
+prompt-check='2017-05-15T20:51:14.274231Z'
+
+[deja-dup/file]
+path='/home/avalenzu/deja-dup'
+
+[desktop/app-folders]
+folder-children=['Utilities', 'Sundry']
+
+[desktop/app-folders/folders/Utilities]
+translate=true
+categories=['X-GNOME-Utilities']
+apps=['org.gnome.baobab.desktop', 'deja-dup-preferences.desktop', 'eog.desktop', 'evince.desktop', 'org.gnome.FileRoller.desktop', 'gnome-calculator.desktop', 'gnome-dictionary.desktop', 'org.gnome.Characters.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.font-viewer.desktop', 'org.gnome.Terminal.desktop', 'org.gnome.Screenshot.desktop', 'gnome-system-log.desktop', 'gnome-system-monitor.desktop', 'gnome-tweak-tool.desktop', 'gucharmap.desktop', 'seahorse.desktop', 'vinagre.desktop', 'yelp.desktop']
+name='X-GNOME-Utilities.directory'
+
+[desktop/app-folders/folders/Sundry]
+translate=true
+categories=['X-GNOME-Sundry']
+apps=['alacarte.desktop', 'authconfig.desktop', 'ca.desrt.dconf-editor.desktop', 'fedora-release-notes.desktop', 'firewall-config.desktop', 'flash-player-properties.desktop', 'gconf-editor.desktop', 'gnome-abrt.desktop', 'gnome-power-statistics.desktop', 'ibus-setup-anthy.desktop', 'ibus-setup.desktop', 'ibus-setup-hangul.desktop', 'ibus-setup-libbopomofo.desktop', 'ibus-setup-libpinyin.desktop', 'ibus-setup-m17n.desktop', 'ibus-setup-typing-booster.desktop', 'im-chooser.desktop', 'itweb-settings.desktop', 'jhbuild.desktop', 'javaws.desktop', 'java-1.7.0-openjdk-jconsole.desktop', 'java-1.7.0-openjdk-policytool.desktop', 'log4j-chainsaw.desktop', 'log4j-logfactor5.desktop', 'nm-connection-editor.desktop', 'orca.desktop', 'setroubleshoot.desktop', 'system-config-date.desktop', 'system-config-firewall.desktop', 'system-config-keyboard.desktop', 'system-config-language.desktop', 'system-config-printer.desktop', 'system-config-users.desktop', 'vino-preferences.desktop']
+name='X-GNOME-Sundry.directory'
+
+[desktop/notifications]
+application-children=['jetbrains-clion', 'org-gnome-software', 'org-gnome-chromegnomeshell']
+
+[desktop/notifications/application/org-gnome-chromegnomeshell]
+application-id='org.gnome.ChromeGnomeShell.desktop'
+
+[desktop/notifications/application/jetbrains-clion]
+application-id='jetbrains-clion.desktop'
+
+[desktop/notifications/application/org-gnome-software]
+application-id='org.gnome.Software.desktop'
+
+[desktop/peripherals/touchpad]
+send-events='disabled'
+
+[desktop/interface]
+scaling-factor=uint32 1
+cursor-size=24
+clock-format='12h'
+gtk-im-module='gtk-im-context-simple'
+text-scaling-factor=1.0
+
+[desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=['compose:ralt', 'caps:swapescape']
+
+[desktop/wm/preferences]
+num-workspaces=4
+
+[desktop/wm/keybindings]
+move-to-workspace-up=['<Primary><Shift><Alt>k']
+switch-to-workspace-left=['<Primary><Alt>h']
+move-to-workspace-2=['<Alt>j']
+switch-to-workspace-down=['<Primary><Alt>j']
+move-to-workspace-right=['<Primary><Shift><Alt>l']
+switch-to-workspace-right=['<Primary><Alt>l']
+move-to-workspace-left=['<Primary><Shift><Alt>h']
+move-to-workspace-down=['<Primary><Shift><Alt>j']
+switch-to-workspace-up=['<Primary><Alt>k']
+
+[terminal/legacy/profiles:/:6d77b0d5-c87b-4b44-8e95-f11a2bebf186]
+background-color='#00002B2B3636'
+use-theme-colors=false
+palette=['#070736364242', '#DCDC32322F2F', '#858599990000', '#B5B589890000', '#26268B8BD2D2', '#D3D336368282', '#2A2AA1A19898', '#EEEEE8E8D5D5', '#00002B2B3636', '#CBCB4B4B1616', '#58586E6E7575', '#65657B7B8383', '#838394949696', '#6C6C7171C4C4', '#9393A1A1A1A1', '#FDFDF6F6E3E3']
+bold-color-same-as-fg=false
+bold-color='#9393a1a1a1a1'
+foreground-color='#838394949696'
+visible-name='Solarized Dark'
+
+[terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+foreground-color='#65657b7b8383'
+visible-name='Solarized Light'
+palette=['#070736364242', '#DCDC32322F2F', '#858599990000', '#B5B589890000', '#26268B8BD2D2', '#D3D336368282', '#2A2AA1A19898', '#EEEEE8E8D5D5', '#00002B2B3636', '#CBCB4B4B1616', '#58586E6E7575', '#65657B7B8383', '#838394949696', '#6C6C7171C4C4', '#9393A1A1A1A1', '#FDFDF6F6E3E3']
+use-theme-colors=false
+use-theme-transparency=false
+bold-color-same-as-fg=false
+bold-color='#58586e6e7575'
+background-color='#fdfdf6f6e3e3'
+
+[terminal/legacy/profiles:/:df9a6d4e-0a75-4867-8809-7ee16fa313a7]
+background-color='#00002B2B3636'
+use-theme-colors=false
+palette=['#00002B2B3636', '#CBCB4B4B1616', '#58586E6E7575', '#65657B7B8383', '#838394949696', '#6C6C7171C4C4', '#9393A1A1A1A1', '#FDFDF6F6E3E3', '#070736364242', '#DCDC32322F2F', '#858599990000', '#B5B589890000', '#26268B8BD2D2', '#D3D336368282', '#2A2AA1A19898', '#EEEEE8E8D5D5']
+bold-color-same-as-fg=false
+bold-color='#9393a1a1a1a1'
+foreground-color='#838394949696'
+visible-name='Solarized Dark (Alt)'
+
+[terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', '6d77b0d5-c87b-4b44-8e95-f11a2bebf186', 'df9a6d4e-0a75-4867-8809-7ee16fa313a7']
+default='b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+
+[terminal/legacy]
+schema-version=uint32 3
+
+[nm-applet/eap/92c1d9e3-bf7b-4758-861c-94e6efbbbd62]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[nm-applet/eap/4331579e-6aec-473c-824c-664418363a63]
+ignore-phase2-ca-cert=false
+ignore-ca-cert=false
+
+[software]
+check-timestamp=int64 1495022862
+
+[gnome-system-monitor]
+show-dependencies=false
+current-tab='resources'
+maximized=false
+show-whose-processes='user'
+window-state=(700, 500, 50, 50)
+
+[gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
