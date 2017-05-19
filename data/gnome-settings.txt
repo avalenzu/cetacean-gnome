@@ -16,10 +16,15 @@ orientation-lock=true
 
 [shell]
 app-picker-view=uint32 1
-enabled-extensions=['ShellTile@emasab.it', 'lockscreen@sri.ramkrishna.me', 'workspace-grid@mathematical.coffee.gmail.com']
+enabled-extensions=['lockscreen@sri.ramkrishna.me', 'workspace-grid@mathematical.coffee.gmail.com', 'alternate-tab-above@gnome-shell-extensions.ae35.de', 'shellshape@gfxmonk.net', 'ShellTile@emasab.it']
 favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-clion.desktop', 'gnome-terminal.desktop']
 
+[shell/extensions/net/gfxmonk/shellshape/keybindings]
+switch-workspace-up=@as []
+switch-workspace-down=@as []
+
 [shell/extensions/workspace-grid]
+num-rows=2
 num-columns=2
 
 [shell/overrides]
@@ -92,6 +97,9 @@ application-id='org.gnome.ChromeGnomeShell.desktop'
 [desktop/notifications/application/jetbrains-clion]
 application-id='jetbrains-clion.desktop'
 
+[desktop/notifications/application/slack]
+application-id='slack.desktop'
+
 [desktop/notifications/application/org-gnome-software]
 application-id='org.gnome.Software.desktop'
 
@@ -104,6 +112,7 @@ cursor-size=24
 clock-format='12h'
 gtk-im-module='gtk-im-context-simple'
 text-scaling-factor=1.0
+toolkit-accessibility=false
 
 [desktop/input-sources]
 sources=[('xkb', 'us')]
@@ -119,8 +128,11 @@ move-to-workspace-1=['<Primary><Alt>1']
 move-to-workspace-2=['<Primary><Alt>2']
 switch-to-workspace-down=['<Primary><Alt>j']
 move-to-workspace-right=['<Primary><Shift><Alt>l']
+move-to-monitor-left=['<Primary><Shift><Alt>p']
+show-desktop=['<Control><Super>d']
 switch-to-workspace-right=['<Primary><Alt>l']
 move-to-workspace-left=['<Primary><Shift><Alt>h']
+move-to-monitor-right=['<Primary><Shift><Alt>n']
 move-to-workspace-down=['<Primary><Shift><Alt>j']
 switch-to-workspace-up=['<Primary><Alt>k']
 
@@ -168,7 +180,7 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 
 [software]
-check-timestamp=int64 1495160053
+check-timestamp=int64 1495200547
 
 [gnome-system-monitor]
 show-dependencies=false
