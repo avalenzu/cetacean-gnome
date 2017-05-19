@@ -23,6 +23,9 @@ favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains
 switch-workspace-up=@as []
 switch-workspace-down=@as []
 
+[shell/extensions/net/gfxmonk/shellshape/prefs]
+default-layout='vertical'
+
 [shell/extensions/workspace-grid]
 num-rows=2
 num-columns=2
@@ -33,7 +36,10 @@ workspaces-only-on-primary=false
 edge-tiling=false
 
 [shell/app-switcher]
-current-workspace-only=false
+current-workspace-only=true
+
+[shell/keybindings]
+toggle-message-tray=['<Super>l', '<Super>m']
 
 [gedit/preferences/ui]
 show-tabs-mode='auto'
@@ -130,17 +136,17 @@ move-to-workspace-3=['<Primary><Shift><Alt>numbersign']
 move-to-workspace-4=['<Primary><Shift><Alt>dollar']
 switch-to-workspace-2=['<Primary><Alt>2']
 move-to-workspace-right=['<Primary><Shift><Alt>l']
-move-to-monitor-left=['<Primary><Shift><Alt>p']
-show-desktop=['<Control><Super>d']
 switch-to-workspace-1=['<Primary><Alt>1']
 switch-to-workspace-down=['<Primary><Alt>j']
-switch-to-workspace-3=['<Primary><Alt>3']
-switch-to-workspace-4=['<Primary><Alt>4']
+move-to-monitor-left=['<Primary><Shift><Alt>p']
+show-desktop=['<Control><Super>d']
 switch-to-workspace-left=['<Primary><Alt>h']
 switch-to-workspace-right=['<Primary><Alt>l']
 move-to-workspace-left=['<Primary><Shift><Alt>h']
+switch-to-workspace-4=['<Primary><Alt>4']
 move-to-monitor-right=['<Primary><Shift><Alt>n']
 move-to-workspace-down=['<Primary><Shift><Alt>j']
+switch-to-workspace-3=['<Primary><Alt>3']
 switch-to-workspace-up=['<Primary><Alt>k']
 
 [terminal/legacy/profiles:/:6d77b0d5-c87b-4b44-8e95-f11a2bebf186]
