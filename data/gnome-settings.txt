@@ -16,7 +16,7 @@ orientation-lock=true
 
 [shell]
 app-picker-view=uint32 1
-enabled-extensions=['lockscreen@sri.ramkrishna.me', 'workspace-grid@mathematical.coffee.gmail.com', 'alternate-tab-above@gnome-shell-extensions.ae35.de', 'shellshape@gfxmonk.net', 'ShellTile@emasab.it']
+enabled-extensions=['lockscreen@sri.ramkrishna.me', 'workspace-grid@mathematical.coffee.gmail.com', 'alternate-tab-above@gnome-shell-extensions.ae35.de', 'shellshape@gfxmonk.net', 'ShellTile@emasab.it', 'topIcons@adel.gadllah@gmail.com']
 favorite-apps=['google-chrome.desktop', 'org.gnome.Nautilus.desktop', 'jetbrains-clion.desktop', 'gnome-terminal.desktop']
 
 [shell/extensions/net/gfxmonk/shellshape/keybindings]
@@ -33,7 +33,7 @@ workspaces-only-on-primary=false
 edge-tiling=false
 
 [shell/app-switcher]
-current-workspace-only=true
+current-workspace-only=false
 
 [gedit/preferences/ui]
 show-tabs-mode='auto'
