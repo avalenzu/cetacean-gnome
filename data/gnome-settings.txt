@@ -27,6 +27,9 @@ dynamic-workspaces=false
 workspaces-only-on-primary=false
 edge-tiling=false
 
+[shell/app-switcher]
+current-workspace-only=true
+
 [gedit/preferences/ui]
 show-tabs-mode='auto'
 
@@ -48,6 +51,9 @@ side-panel-active-page='GeditWindowDocumentsPanel'
 [nautilus/window-state]
 geometry='890x550+19+49'
 maximized=false
+
+[evince/default]
+window-ratio=(4.1830065359477127, 1.7840909090909092)
 
 [evolution-data-server]
 migrated=true
@@ -76,6 +82,9 @@ name='X-GNOME-Sundry.directory'
 
 [desktop/notifications]
 application-children=['jetbrains-clion', 'org-gnome-software', 'org-gnome-chromegnomeshell']
+
+[desktop/notifications/application/nextcloud]
+application-id='nextcloud.desktop'
 
 [desktop/notifications/application/org-gnome-chromegnomeshell]
 application-id='org.gnome.ChromeGnomeShell.desktop'
@@ -106,7 +115,8 @@ num-workspaces=4
 [desktop/wm/keybindings]
 move-to-workspace-up=['<Primary><Shift><Alt>k']
 switch-to-workspace-left=['<Primary><Alt>h']
-move-to-workspace-2=['<Alt>j']
+move-to-workspace-1=['<Primary><Alt>1']
+move-to-workspace-2=['<Primary><Alt>2']
 switch-to-workspace-down=['<Primary><Alt>j']
 move-to-workspace-right=['<Primary><Shift><Alt>l']
 switch-to-workspace-right=['<Primary><Alt>l']
@@ -158,7 +168,7 @@ ignore-phase2-ca-cert=false
 ignore-ca-cert=false
 
 [software]
-check-timestamp=int64 1495022862
+check-timestamp=int64 1495160053
 
 [gnome-system-monitor]
 show-dependencies=false
